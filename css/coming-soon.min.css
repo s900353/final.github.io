@@ -1,0 +1,610 @@
+/*!
+ * Start Bootstrap - Coming Soon v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/coming-soon)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-coming-soon/blob/master/LICENSE)
+ */
+
+html {
+    height: 100%
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Merriweather;
+    font-weight: 700
+}
+
+/*
+body {
+    height: 100%;
+    position: relative;
+    font-family: 'Source Sans Pro';
+    font-weight: 300
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #cd9557;
+    opacity: .75;
+    z-index: -1
+}
+
+.masthead {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 3rem
+}
+
+.masthead .masthead-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 46, 102, .8);
+    transform: skewY(4deg);
+    transform-origin: bottom right
+}
+
+.masthead .masthead-content h1 {
+    font-size: 2.5rem
+}
+
+
+.masthead .masthead-content p strong {
+    font-weight: 700
+}
+
+.masthead .masthead-content .input-group-newsletter input {
+    font-size: 1rem;
+    padding: 1rem
+}
+
+.masthead .masthead-content .input-group-newsletter button {
+    font-size: .8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1rem
+}
+*/
+
+/*
+        #div1 {
+            background-image: url("IMG_7312.JPG");
+        }
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+#title {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#title h1 {
+    color: white;
+    margin-top: 30px;
+    font-size: 60px;
+}
+
+#title h2 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+#div1 {
+    background-image: url("/img/%E6%B8%85%E7%9C%9F%E5%AF%BA.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.video-background {
+    background: #000;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -99;
+
+}
+
+.video-foreground,
+.video-background iframe {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+#title2 {
+
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-right: 50px;
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 30px;
+            color: #f8d8c9;
+}
+
+#vidtop-content {
+    margin-top: 0px;
+    /*            color: #fff;*/
+}
+
+.vid-info {
+    position: absolute;
+/*    margin-top: 250px;*/
+    right: 50px;
+    width: 33%;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+    font-family: Avenir, Helvetica, sans-serif;
+}
+
+/*
+.vid-info h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 0;
+    text-align: right;
+
+
+}
+*/
+
+.vid-info h2 {
+    /*            font-size: 50px;*/
+    /*            font-weight: 700;*/
+    margin-top: 0;
+    text-align: center;
+        color: rgb(255, 215, 0);
+
+
+
+}
+
+.vid-info p {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+#div3 {
+    position: relative;
+    background: rgba(0,0,0,0.7);
+    
+}
+
+
+
+.caption h2 {
+    color: rgb(255, 215, 0);
+    text-align: center;
+}
+
+.caption p {
+    color: white;
+    text-align: center;
+}
+
+.afghan {
+    position: relative;
+    margin-top: 0px;
+    /*    right: 50px;*/
+    /*    width: 33%;*/
+    background: rgba(0, 0, 0, 0);
+    /*    padding: 1rem;*/
+    font-family: Avenir, Helvetica, sans-serif;
+}
+
+.three-padding {
+    padding: 10px;
+        background: rgba(0,0,0,0);
+
+    
+}
+
+#turn {
+     font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    width: 100%;
+    margin-top: 150px;
+/*    margin-left: 800px;*/
+}
+
+#title3{
+    padding-top: 30vh;
+}
+#title3 h1 {
+    color: white;
+    margin-top: 30px;
+    font-size: 60px;
+    text-align: center;
+}
+
+#title3 p{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+#div4{
+    position: relative;
+}
+
+#quran{
+    background-image: url("/img/quran.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+}
+
+.col-sm-4{
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
+}
+
+#section h3,#section2 h3, #section3 h3{
+    color: rgb(255, 215, 0);
+    text-align: center;
+}
+#section p, #section2 p, #section3 p{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+#middle_east{
+    background-image: url("/img/muslin_woman_2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    
+}
+
+#block1{
+    background-color: rgba(0,0,0,0.5);
+    margin: 5px;
+    
+}
+#block1 h3{
+    color: rgb(255, 215, 0);
+    text-align: center;
+}
+#block1 li{
+    color: white;
+    text-align: left;
+    font-size: 18px;
+}
+
+ .slideanimate {
+            visibility: hidden;
+        }
+        
+        .slide {
+            animation-name: slide;
+            -webkit-animation-name: slide;
+            animation-duration: 1s;
+            -webkit-animation-duration: 1s;
+            visibility: visible;
+        }
+
+        .slide1 {
+            animation-name: slide;
+            -webkit-animation-name: slide;
+            animation-duration: 1.2s;
+            -webkit-animation-duration: 1.2s;
+            visibility: visible;
+        }
+        .slide2 {
+            animation-name: slide;
+            -webkit-animation-name: slide;
+            animation-duration: 1s;
+            -webkit-animation-duration: 1s;
+            visibility: visible;
+        }
+        .slide3 {
+            animation-name: slide;
+            -webkit-animation-name: slide;
+            animation-duration: 1.4s;
+            -webkit-animation-duration: 1.4s;
+            visibility: visible;
+        }
+  @keyframes slide {
+            0% {
+                opacity: 0;
+                transform: translateY(70%);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0%);
+            }
+        }
+        
+        @-webkit-keyframes slide {
+            0% {
+                opacity: 0;
+                -webkit-transform: translateY(70%);
+            }
+            100% {
+                opacity: 1;
+                -webkit-transform: translateY(0%);
+            }
+        }
+  @keyframes slide3 {
+            0% {
+                opacity: 0;
+                transform: translateY(70%);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0%);
+            }
+        }
+        
+        @-webkit-keyframes slide3 {
+            0% {
+                opacity: 0;
+                -webkit-transform: translateY(70%);
+            }
+            100% {
+                opacity: 1;
+                -webkit-transform: translateY(0%);
+            }
+        }
+  @keyframes slide1 {
+            0% {
+                opacity: 0;
+                transform: translateY(70%);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0%);
+            }
+        }
+        
+        @-webkit-keyframes slide1 {
+            0% {
+                opacity: 0;
+                -webkit-transform: translateY(70%);
+            }
+            100% {
+                opacity: 1;
+                -webkit-transform: translateY(0%);
+            }
+        }
+  @keyframes slide2 {
+            0% {
+                opacity: 0;
+                transform: translateY(70%);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0%);
+            }
+        }
+        
+        @-webkit-keyframes slide2 {
+            0% {
+                opacity: 0;
+                -webkit-transform: translateY(70%);
+            }
+            100% {
+                opacity: 1;
+                -webkit-transform: translateY(0%);
+            }
+        }
+        
+        @media screen and (max-width: 768px) {
+            .col-sm-4 {
+                background-color: bisque;
+                text-align: center;
+            }
+            p {
+                color: blue;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            .col-sm-4 {
+                background-color: gray;
+                font-size: 48px;
+            }
+            p {
+                color: red;
+            }
+        }
+#the_end{
+    background-image: url("/img/muslin_woman.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    
+}
+
+/*timeline style*/
+
+
+
+	/* Container around content */
+
+		.container {
+			padding: 10px 40px;
+			position: relative;
+			background-color: inherit;
+			width: 40%;
+
+		}
+
+		/* The circles on the timeline */
+
+		.container::after {
+			content: '';
+			position: absolute;
+/
+*/
+			right: -17px;
+			background-color: rgba(0,0,0,0.3);
+			/*			border: 4px solid #FF9F55;*/
+			top: 15px;
+/*			border-radius: 50%;*/
+			z-index: 2;
+		}
+	/* Place the container to the left */
+
+		.left {
+			left: -25.3%;
+		}
+
+		/* Place the container to the right */
+
+		.right {
+			left: 25.3%;
+		}
+
+		/* Add arrows to the left container (pointing right) */
+
+		.left::before {
+			content: " ";
+			height: 0;
+			position: absolute;
+			top: 22px;
+			width: 0;
+			z-index: 1;
+			right: 30px;
+
+		}
+
+		/* Add arrows to the right container (pointing left) */
+
+		.right::before {
+			content: " ";
+			height: 0;
+			position: absolute;
+			top: 22px;
+			width: 0;
+			z-index: 1;
+			left: 30px;
+
+		}
+
+		/* Fix the circle for containers on the right side */
+
+		.right::after {
+			left: -16px;
+		}
+
+		/* The actual content */
+
+		.content {
+			padding: 20px 30px;
+			background-color: rgba(0,0,0,0.3);
+			position: relative;
+			border-radius: 6px;
+            color:rgb(255, 215, 0);
+		}
+.content h3{
+    text-align: center;
+}
+
+.content h6{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+@keyframes flipInX {
+  from {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+
+  40% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  60% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    opacity: 1;
+  }
+
+  80% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+  }
+
+  to {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+  }
+}
+
+.flipInX {
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  -webkit-animation-name: flipInX;
+  animation-name: flipInX;
+}
+
+
+/*
+/*
+@media (min-width:768px) {
+    .masthead {
+        height: 100%;
+        width: 40.5rem;
+        padding-bottom: 0
+    }
+    .masthead .masthead-bg {
+        transform: skewX(-8deg);
+        transform-origin: top right
+    }
+    .masthead .masthead-content {
+        padding-left: 3rem;
+        padding-right: 10rem
+    }
+    .masthead .masthead-content h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+}
+
+
+@media (min-width:768px) {
+
+}
+*/
